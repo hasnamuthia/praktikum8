@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    min-height: 500px;
+    flex-direction: column;
+}
+
+header, footer {
+    background-color: khaki;
+    padding: 15px;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+main article {
+    background-color: white;
+    flex: 2;
+    padding: 20px;
+}
+
+main aside {
+    background-color: aqua;
+    flex: 1;
+    padding: 20px;
+}
+
+main nav {
+    background-color: pink;
+    flex: 1;
+    padding: 15px;
+}
